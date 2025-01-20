@@ -115,7 +115,6 @@ class MovieManager {
     }
 }
 
-// Main application class
 public class CinemaTicketBooking {
 
     private static boolean adminLogin(Scanner scanner) {
@@ -142,7 +141,6 @@ public class CinemaTicketBooking {
         System.out.print("Enter your password: ");
         String password = scanner.nextLine();
 
-        // For simplicity, any username and password are accepted for users
         if (!username.isEmpty() && !password.isEmpty()) {
             System.out.println("\nUser login successful.");
             return true;
